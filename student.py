@@ -64,12 +64,12 @@ class Student():
             return 0
     
     def __str__(self):
-        return f"{self.full_name}"
+        return f"{self.full_name} is {self.age} years old and is in cohort {self.cohort}"
 
 mike = Student()
 mike.first_name = "Mike"
 mike.last_name = "Ellis"
 mike.age = 35
-mike.cohort_number = 39
+mike.cohort = 39
 
 print(mike)
